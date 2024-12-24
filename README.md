@@ -45,3 +45,4 @@ python COXAE.py
 
 The prediction results have also been uploaded and can be found in the corresponding folder.
 ```
+AutoSurv/prediction CoxEN/prediction CoxAE/prediction coxkan/prediction
