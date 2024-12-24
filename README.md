@@ -5,6 +5,15 @@ Based on the code and experimental procedures provided in the papers, we ran fou
 
 The seven TCGA datasets used in this study can be downloaded from [https://portal.gdc.cancer.gov](https://portal.gdc.cancer.gov). The multi-omics data used by different methods vary but all come from the same patients.
 
+### prediction results 
+
+The prediction results have also been uploaded and can be found in the corresponding folder.
+```
+AutoSurv/prediction_save_path
+CoxEN/prediction_save
+CoxAE/prediction_save
+coxkan/prediction_output
+
 #### AutoSurv
 
 Using KL-PMVAE to extract features from miRNA and high-dimensional gene expression data. The corresponding code is provided, and to facilitate reproducibility, we have uploaded the extracted features. You can directly perform hyperparameter tuning, training, and prediction with a single command:
@@ -43,9 +52,4 @@ We used an autoencoder to extract multi-omics features and then performed CoxPH 
 python COXAE.py
 ```
 
-The prediction results have also been uploaded and can be found in the corresponding folder.
-```
-AutoSurv/prediction_save_path
-CoxEN/prediction_save
-CoxAE/prediction_save
-coxkan/prediction_output
+
