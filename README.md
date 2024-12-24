@@ -7,7 +7,7 @@ The seven TCGA datasets used in this study can be downloaded from [https://porta
 
 #### AutoSurv
 
-We used KL-PMVAE to extract features from miRNA and high-dimensional gene expression data. The corresponding code is provided, and to facilitate reproducibility, we have uploaded the extracted features. You can directly perform hyperparameter tuning, training, and prediction with a single command:
+Using KL-PMVAE to extract features from miRNA and high-dimensional gene expression data. The corresponding code is provided, and to facilitate reproducibility, we have uploaded the extracted features. You can directly perform hyperparameter tuning, training, and prediction with a single command:
 
 ```bash
 python Tuning_and_prediciton.py
