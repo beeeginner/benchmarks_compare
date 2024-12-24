@@ -45,4 +45,7 @@ python COXAE.py
 
 The prediction results have also been uploaded and can be found in the corresponding folder.
 ```
-AutoSurv/prediction_save_path CoxEN/prediction_save CoxAE/prediction_save coxkan/prediction_output
+AutoSurv/prediction_save_path
+CoxEN/prediction_save
+CoxAE/prediction_save
+coxkan/prediction_output
