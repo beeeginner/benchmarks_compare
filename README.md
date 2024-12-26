@@ -13,6 +13,7 @@ AutoSurv/prediction_save_path
 CoxEN/prediction_save
 CoxAE/prediction_save
 coxkan/prediction_output
+Cox-sage/prediction_save.zip
 ```
 
 #### AutoSurv
